@@ -85,20 +85,24 @@ async def rejected_group_callback(client, query):
 @Client.on_message(filters.group & filters.command("verify"))
 async def grpp_verify(bot, message):
     user = await bot.get_chat_member(message.chat.id, message.from_user.id)
-    total=await bot.get_chat_members_count(message.chat.id)
+    total = await bot.get_chat_members_count(message.chat.id)
     owner_id = message.from_user.id
     group_link = message.chat.invite_link
     is_verified = await db.check_group_verification(message.chat.id)
     is_rejected = await db.rejected_group(message.chat.id)
-    owner=user.status in [enums.ChatMemberStatus.ADMINISTRATOR, enums.ChatMemberStatus.OWNER] or str(message.from_user.id) in ADMINS
+    owner = user.status in [enums.ChatMemberStatus.ADMINISTRATOR, enums.ChatMemberStatus.OWNER] or str(owner_id) in ADMINS
+
+    # If the chat has a username, create a link with it
     if message.chat.username:
         group_link = f"https://t.me/{message.chat.username}"
     else:
+        # Try to create an invite link for the group
         try:
             invite_link = await bot.create_chat_invite_link(message.chat.id)
             group_link = invite_link.invite_link
         except Exception as e:
             group_link = "No link available"
+
     if not is_rejected:
         if owner:
             if not is_verified:
@@ -109,8 +113,9 @@ async def grpp_verify(bot, message):
                     text=f"<b>#𝐕𝐞𝐫𝐢𝐟𝐲_𝐆𝐫𝐨𝐮𝐩\n\n𝑩𝒐𝒕: {temp.U_NAME}\n𝑮𝒓𝒐𝒖𝒑:- <a href={group_link}>{message.chat.title}</a>\n𝑰𝑫: {message.chat.id}\n𝑴𝒆𝒎𝒃𝒆𝒓𝒔:- {total}\n𝑼𝒔𝒆𝒓: {message.from_user.mention}</b>",
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("Tᴀᴘ Tᴏ Vᴇʀɪғʏ ✅", callback_data=f"verify_group_{message.chat.id}")],
-                        [InlineKeyboardButton("Rᴇᴊᴇᴄᴛ ⭕", callback_data=f"rejected_group_{message.chat.id}")]]
-                    )
+                        [InlineKeyboardButton("Rᴇᴊᴇᴄᴛ ⭕", callback_data=f"rejected_group_{message.chat.id}")]
+                    ]),
+                    parse_mode='HTML'  # Ensure HTML parsing for text formatting
                 )
                 await message.reply("ᴠᴇʀɪғʏ ʀᴇǫᴜᴇsᴛ sᴇɴᴛ ᴛᴏ ᴍʏ ᴀᴅᴍɪɴ, ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴏʀ ᴛʜᴇ ᴄᴏɴғɪʀᴍᴀᴛɪᴏɴ.")
             else:
