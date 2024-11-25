@@ -78,7 +78,7 @@ async def rejected_group_callback(client, query):
         [[InlineKeyboardButton("Tᴀᴘ Tᴏ Vᴇʀɪғʏ ✅", callback_data=f"verify_group_{chat_id}")]]
     ))
     if owner_id:
-        await client.send_message(chat_id=owner_id, text=f"#𝐑𝐞𝐣𝐞𝐜𝐭_𝐆𝐫𝐨𝐮𝐩❌\n\nGʀᴏᴜᴘ Nᴀᴍᴇ: {group_title}\nIᴅ: {chat_id}\n\nʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ\n\n ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴀᴅᴍɪɴ: @MRAdbot_Officials.")
+        await client.send_message(chat_id=owner_id, text=f"#𝐑𝐞𝐣𝐞𝐜𝐭_𝐆𝐫𝐨𝐮𝐩❌\n\nGʀᴏᴜᴘ Nᴀᴍᴇ: {group_title}\nIᴅ: {chat_id}\n\nʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ\n\n ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴀᴅᴍɪɴ: 💌 @MRAdbot_Officials.")
 
 
 # Verify command to initiate the group verification
