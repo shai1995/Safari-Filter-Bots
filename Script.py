@@ -261,7 +261,7 @@ Money heist S0E01
     USERS_TXT = """
 👇 ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ ғᴏʀ ᴜꜱᴇʀꜱ 👇
     
-• /id - ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.
+<blockquote>• /id - ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.
 • /info  - ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.
 • /imdb  - ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ꜰʀᴏᴍ ɪᴍᴅʙ ꜱᴏᴜʀᴄᴇ.
 • /search  - ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ꜰʀᴏᴍ ᴠᴀʀɪᴏᴜꜱ ꜱᴏᴜʀᴄᴇꜱ.
@@ -269,13 +269,13 @@ Money heist S0E01
 • /plans - ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ ᴘʟᴀɴꜱ.
 • /myplan - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴜɴᴛ ᴘʟᴀɴ.
 • /redeem - ʀᴇᴅᴇᴇᴍ ʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴅᴇ
-• /sticker_id - ᴛᴇʟᴇɢʀᴀᴍ sᴛɪᴄᴋᴇʀ ɪᴅ
+• /sticker_id - ᴛᴇʟᴇɢʀᴀᴍ sᴛɪᴄᴋᴇʀ ɪᴅ</blockquote>
 """
 
     GROUP_TXT = """
 👇 ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ ꜰᴏʀ ɢʀᴏᴜᴘ 👇
     
-• /connect  - ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ʏᴏᴜʀ ᴘᴍ.
+<blockquote>• /connect  - ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ʏᴏᴜʀ ᴘᴍ.
 • /disconnect  - ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ.
 • /set_verify -  sᴇᴛ ғɪʀsᴛ ᴠᴇʀɪғʏ ᴜʀʟ
 • /set_verify2 - sᴇᴛ sᴇᴄᴏɴᴅ ᴠᴇʀɪғʏ ᴜʀʟ
@@ -295,13 +295,13 @@ Money heist S0E01
 • /set_stream - ᴄʜᴀɴɢᴇ sᴛʀᴇᴀᴍ sʜᴏʀᴛ ʟɪɴᴋ
 • /connections - ʟɪꜱᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ.
 • /settings - ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs ᴀs ʏᴏᴜʀ ᴡɪsʜ.
-• /details - ᴠɪᴇᴡ ɢʀᴏᴜᴘ sᴀᴠᴇᴅ ᴠᴀʟᴜᴇ
+• /details - ᴠɪᴇᴡ ɢʀᴏᴜᴘ sᴀᴠᴇᴅ ᴠᴀʟᴜᴇ</blockquote>
 """
 
     ADMIC_TXT = """
 👇 ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ ꜰᴏʀ ᴀᴅᴍɪɴꜱ 👇
 
-• /add_premium - <code>ᴀᴅᴅ ᴀɴʏ ᴜꜱᴇʀ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ.</code>
+<blockquote>• /add_premium - <code>ᴀᴅᴅ ᴀɴʏ ᴜꜱᴇʀ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ.</code>
 • /remove_premium - <code>ʀᴇᴍᴏᴠᴇ ᴀɴʏ ᴜꜱᴇʀ ꜰʀᴏᴍ ᴘʀᴇᴍɪᴜᴍ.</code>
 • /premium_users - <code>ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.</code>
 • /get_premium - <code>ɢᴇᴛ ɪɴꜰᴏ ᴏꜰ ᴀɴʏ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ.</code>
@@ -311,12 +311,12 @@ Money heist S0E01
 • /allcodes - ᴠɪᴇᴡ ᴀʟʟ ᴄᴏᴅᴇ ᴀɴᴅ ᴅᴇᴛᴀɪʟs
 • /grp_delete - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ɢʀᴏᴜᴘ ғᴏʀ ᴅᴀᴛᴀʙᴀsᴇ
 • /setlink - sᴇᴛ ғǫᴅɴ ᴜʀʟ
-• /set_value - set value True False in Direct Bot
+• /set_value - set value True False in Direct Bot</blockquote>
 """
     ADMIC_TEX2T = """
 👇 ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ ꜰᴏʀ ᴀᴅᴍɪɴꜱ 👇
 
-• /logs - <code>ɢᴇᴛ ᴛʜᴇ ʀᴇᴄᴇɴᴛ ᴇʀʀᴏʀꜱ.</code>
+<blockquote>• /logs - <code>ɢᴇᴛ ᴛʜᴇ ʀᴇᴄᴇɴᴛ ᴇʀʀᴏʀꜱ.</code>
 • /delete - <code>ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ.</code>
 • /users - <code>ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴜꜱᴇʀꜱ ᴀɴᴅ ɪᴅꜱ.</code>
 • /chats - <code>ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴄʜᴀᴛꜱ ᴀɴᴅ ɪᴅꜱ.</code>
@@ -329,7 +329,7 @@ Money heist S0E01
 • /grp_broadcast - <code>ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘs.</code>
 • /deletefiles - <code>ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD ғɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deleteall - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ɪɴᴅᴇxᴇs ғɪʟᴇs
-• /send - <code>ꜱᴇɴᴅ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴜꜱᴇʀ.</code>
+• /send - <code>ꜱᴇɴᴅ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴜꜱᴇʀ.</code></blockquote>
 """
     
     PREMIUM_CMD = """<b>
