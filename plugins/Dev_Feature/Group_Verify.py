@@ -78,7 +78,7 @@ async def rejected_group_callback(client, query):
         [[InlineKeyboardButton("Tᴀᴘ Tᴏ Vᴇʀɪғʏ ✅", callback_data=f"verify_group_{chat_id}")]]
     ))
     if owner_id:
-        await client.send_message(chat_id=owner_id, text=f"#𝐑𝐞𝐣𝐞𝐜𝐭_𝐆𝐫𝐨𝐮𝐩❌\n\nGʀᴏᴜᴘ Nᴀᴍᴇ: {group_title}\nIᴅ: {chat_id}\n\nʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ\n\n ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴀᴅᴍɪɴ: @Safaridev.")
+        await client.send_message(chat_id=owner_id, text=f"#𝐑𝐞𝐣𝐞𝐜𝐭_𝐆𝐫𝐨𝐮𝐩❌\n\nGʀᴏᴜᴘ Nᴀᴍᴇ: {group_title}\nIᴅ: {chat_id}\n\nʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ\n\n ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴀᴅᴍɪɴ: @MRAdbot_Officials.")
 
 
 # Verify command to initiate the group verification
@@ -121,7 +121,7 @@ async def grpp_verify(bot, message):
             )
     else:
         if owner:
-            await message.reply_text(text=f" ʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ ʙʏ ᴍʏ ᴀᴅᴍɪɴ.\n\nɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɢʀᴏᴜᴘ ᴠᴇʀɪғɪᴇᴅ ᴛʜᴇɴ contact ᴛʜᴇ ᴀᴅᴍɪɴ. @Safaridev.")
+            await message.reply_text(text=f" ʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ ʙʏ ᴍʏ ᴀᴅᴍɪɴ.\n\nɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɢʀᴏᴜᴘ ᴠᴇʀɪғɪᴇᴅ ᴛʜᴇɴ contact ᴛʜᴇ ᴀᴅᴍɪɴ. @MRADBOT_OFFICIALS.")
         else:
             await message.reply("ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴs")
 
