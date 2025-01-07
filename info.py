@@ -60,8 +60,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'spiderman')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'earn4link.in'))
-STREAM_API = (environ.get('STREAM_API', '2bb1874d1cead1c3145196105eef40dad2090ef4'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.com'))
+STREAM_API = (environ.get('STREAM_API', '3eca63413e5163d3467378b3f189a3dddad33307'))
 STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/Hoe/69'))
 STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
@@ -69,16 +69,16 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'earn4link.in')
-VERIFY_API = (environ.get('VERIFY_API', '2bb1874d1cead1c3145196105eef40dad2090ef4'))
+VERIFY_URL = environ.get('VERIFY_URL', 'modijiurl.com')
+VERIFY_API = (environ.get('VERIFY_API', '3eca63413e5163d3467378b3f189a3dddad33307'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "0"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'earn4link.in')
-VERIFY_API2 = (environ.get('VERIFY_API2', '2bb1874d1cead1c3145196105eef40dad2090ef4'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'modijiurl.com')
+VERIFY_API2 = (environ.get('VERIFY_API2', '3eca63413e5163d3467378b3f189a3dddad33307'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "0"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'earn4link.in')
-VERIFY_API3 = (environ.get('VERIFY_API3', '2bb1874d1cead1c3145196105eef40dad2090ef4'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'modijiurl.com')
+VERIFY_API3 = (environ.get('VERIFY_API3', '3eca63413e5163d3467378b3f189a3dddad33307'))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MRADBOT_OFFICIALS')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/MRADBOT_OFFICIALS')
