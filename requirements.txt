@@ -30,3 +30,7 @@ colorama
 fuzzywuzzy
 python-Levenshtein
 googletrans==4.0.0-rc1
+
+moviepy>=1.0.3
+imageio>=2.4.1
+imageio[ffmpeg]
