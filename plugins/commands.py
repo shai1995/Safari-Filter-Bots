@@ -727,7 +727,7 @@ async def set_verify(c, m):
     if not owner:
         return await m.reply_text('<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ</b>')        
     if len(m.text.split()) == 1:
-        await m.reply("<b>Use this command like this - \n\n`/set_shortner modijiurl.com 3eca63413e5163d3467378b3f189a3dddad33307`</b>")
+        await m.reply("<b>Use this command like this - \n\n`/set_shortner earn4link.in 2bb1874d1cead1c3145196105eef40dad2090ef4`</b>")
         return        
     sts = await m.reply("<b>♻️ ᴄʜᴇᴄᴋɪɴɢ...</b>")
     try:
@@ -763,7 +763,7 @@ async def set_verify2(c, m):
     if not owner:
         return await m.reply_text('<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ</b>')
     if len(m.text.split()) == 1:
-        await m.reply("<b>Use this command like this - \n\n`/set_shortner_2 modijiurl.com 3eca63413e5163d3467378b3f189a3dddad33307`</b>")
+        await m.reply("<b>Use this command like this - \n\n`/set_shortner_2 nanolinks.in 85241b83cae153324fbfffa40e84843b62d1c134`</b>")
         return
     sts = await m.reply("<b>♻️ ᴄʜᴇᴄᴋɪɴɢ...</b>")
     try:
@@ -799,7 +799,7 @@ async def set_verify3(c, m):
     if not owner:
         return await m.reply_text('<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ</b>')
     if len(m.text.split()) == 1:
-        await m.reply("<b>Use this command like this - \n\n`/set_shortner_2 modijiurl.com 3eca63413e5163d3467378b3f189a3dddad33307`</b>")
+        await m.reply("<b>Use this command like this - \n\n`/set_shortner_2 shrtfly.com 1b7cb13596ccd349036a2221da784c7d`</b>")
         return
     sts = await m.reply("<b>♻️ ᴄʜᴇᴄᴋɪɴɢ...</b>")
     try:
